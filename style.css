@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin-top: 33%;
+    font-family:"Josefin Sans";
+}
+#dice {
+    font-size: 10em;
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    touch-action: manipulation;
+    border-radius: 360px;
+}
+#dice:hover{
+    animation: roll 0.5s linear 0s 6;
+}
+
+#roll {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+@keyframes roll {
+    100%{rotate: 360deg;}
+}
